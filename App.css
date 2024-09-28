@@ -1,0 +1,89 @@
+/* src/App.css */
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #D7C0AE;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard-container {
+  margin-bottom: 20px;
+}
+
+.form-records-container {
+  display: flex;
+  gap: 20px;
+}
+
+.form-container, .records-container {
+  flex: 1;
+}
+
+h1, h2 {
+  text-align: center;
+  font-weight: 700;
+  color: #007bff;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.record-card {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.record-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-container {
+  margin-bottom: 20px;
+}
+
+.dashboard-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.dashboard-graph {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
